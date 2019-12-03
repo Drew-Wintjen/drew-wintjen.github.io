@@ -345,13 +345,14 @@ body {
 
 .green-text-bckg {
     background: #3DD980;
-    width: 500px 100%;
-    height: 155px 100%;
+    width: 500px;
+    height: 155px;
     padding: 15px;
     position: absolute;
     top: 420px;
     left: 0px;
     z-index: 1;
+    
 
 }
 
@@ -769,6 +770,38 @@ body {
 }*/
 
 
+
+
+/*/-----------------------*Review Page*-------------------------/*/
+
+.green-text-bckg-review {
+    background: #3DD980;
+    width: 500px;
+    height: 160px;
+    padding: 15px;
+    position: absolute;
+    top: 420px;
+    left: 0px;
+    z-index: 1;
+}
+
+.green-text-bckg-review p {
+    width: 450px
+}
+
+.review-text {
+    width: 
+}
+
+.review-image {
+    display: block;
+    margin-left: 15%;
+}
+
+.review-text-bottem {
+    margin-bottom: 40px
+}
+
 /*--- Footer ---------------*/
 #footer-bkgd {
     background: #ffffff;
@@ -808,7 +841,7 @@ body {
     margin-top: 15px;
     margin-bottom: 15px;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: ;
     display: block;
 }
 
