@@ -352,10 +352,13 @@ body {
     top: 420px;
     left: 0px;
     z-index: 1;
-    
-
 }
 
+.green-text-bckg a {
+    text-decoration: none;
+    color: black;
+    
+}
 .green-text-bckg p {
     width: 450px;
 }
@@ -413,6 +416,7 @@ body {
     .image-header-right {
         right: 15px;
     }
+    
 }
 
 @media only all and (max-width: 1500px) {
@@ -436,11 +440,11 @@ body {
     }
 
     .green-background {
-        height: 1600px
+        height: 100%;
     }
 
     .white-background {
-        height: 1600px;
+        height: 100%
     }
 }
 
@@ -458,13 +462,7 @@ body {
         top: 1200px;
     }
 
-    .green-background {
-        height: 1450px
-    }
 
-    .white-background {
-        height: 1450px;
-    }
 }
 
 @media only all and (max-width: 1257px) {
@@ -481,13 +479,7 @@ body {
         top: 1120px;
     }
 
-    .green-background {
-        height: 1350px
-    }
 
-    .white-background {
-        height: 1350px;
-    }
 }
 
 @media only all and (max-width: 1180px) {
@@ -506,13 +498,7 @@ body {
         top: 1050px;
     }
 
-    .green-background {
-        height: 1270px
-    }
 
-    .white-background {
-        height: 1270px;
-    }
 }
 
 
@@ -540,13 +526,6 @@ body {
         padding: 5px;
     }
 
-    .green-background {
-        height: 1270px
-    }
-
-    .white-background {
-        height: 1270px;
-    }
 
     .image-header-left {
         float: none;
@@ -603,13 +582,7 @@ body {
         width: 650px;
     }
 
-    .green-background {
-        height: 1500px
-    }
 
-    .white-background {
-        height: 1500px;
-    }
 }
 
 @media only all and (max-width: 768px) {
@@ -638,13 +611,7 @@ body {
         width: auto;
     }
 
-    .green-background {
-        height: 1350px
-    }
 
-    .white-background {
-        height: 1350px;
-    }
 }
 
 @media only all and (max-width: 500px) {
@@ -789,17 +756,62 @@ body {
     width: 450px
 }
 
-.review-text {
-    width: 
-}
-
 .review-image {
     display: block;
     margin-left: 15%;
+    margin-bottom: 25px
 }
 
 .review-text-bottem {
     margin-bottom: 40px
+}
+
+@media only all and (max-width: 1600px) {
+    .review-image {
+    display: block;
+    margin-left: 0%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    }
+    .review-text {
+        width: auto;
+    }
+    .review-text-seperate {
+        width: auto;
+    }
+}
+
+@media only all and (max-width: 976px) {
+    .review-text-seperate {
+        width: 250%;
+    }
+}
+
+@media only all and (max-width: 767px) {
+    .review-text-seperate {
+        width: 100%;
+    }
+}
+
+
+/*--------------about me-------------------*/
+
+.carousel-caption {
+    color: black;
+    background: rgba(255,255,255, 0.5);    
+}
+
+.carousel-item {
+    margin-bottom: 25px
+}
+
+.about-text {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+#my-peripherals {
+    margin-bottom: 25px;
 }
 
 /*--- Footer ---------------*/
@@ -841,7 +853,6 @@ body {
     margin-top: 15px;
     margin-bottom: 15px;
     margin-right: auto;
-    margin-left: ;
     display: block;
 }
 
