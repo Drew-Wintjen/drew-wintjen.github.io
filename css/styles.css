@@ -814,6 +814,27 @@ body {
     margin-bottom: 25px;
 }
 
+/*----------------Contact Page---------------------*/
+form {
+ margin-top: 25px;
+    margin-bottom: 25px
+}
+
+.form-control {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    color: Black;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+
+
+
+
 /*--- Footer ---------------*/
 #footer-bkgd {
     background: #ffffff;

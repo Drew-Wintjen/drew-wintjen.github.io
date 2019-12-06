@@ -30,10 +30,10 @@
                             <li><a href="keyboards.html">Keyboards</a></li>
                             <li><a href="headphones.html">Headphones</a></li>
                             <li>
-                                <div class="main-nav-small"><a href="about-me.html"><b>About Me</b></a></div>
+                                <div class="main-nav-small"><a href="about-me.html">About Me</a></div>
                             </li>
                             <li>
-                                <div class="main-nav-small"><a href="contact.html">Contact</a></div>
+                                <div class="main-nav-small"><a href="contact-page.php"><b>Contact</b></a></div>
                             </li>
                         </ul>
                     </div>
@@ -53,8 +53,8 @@
 
                     <div class="main-nav">
                         <ul>
-                            <li><a href="about-me.html"><b>About Me</b></a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="about-me.html">About Me</a></li>
+                            <li><a href="contact-page.php"><b>Contact</b></a></li>
                         </ul>
                     </div>
                 </section>
@@ -75,42 +75,37 @@
                     </div>
                     <section class="col-md-9">
                         <div class="page1-header">
-                            <h1>About Me</h1>
+                            <h1>Contact Me</h1>
                         </div>
                     </section>
                 </div>
                 <div class="row">
                     <section class="col-md-12">
-                        <img class="image-header-left img-fluid" src="images/computer-monitors.jpg" width="1500" height="792" alt="computer-monitors">
+                        <img class="image-header-left img-fluid" src="images/960-GPU.jpg" width="1500" height="792" alt="graphic card">
                     </section>
                     <div class="green-text-bckg">
                         <section class="col-md-6">
-                            <h2>Profile</h2>
-                            <p>I'm 21 years been in love with technology for as long as I can remember. Started playing pc games in 2016. I'm as web and interactive student at Pitt State University. </p>
+                            <h2>Contact</h2>
+                            <p>If you have any questions feel free to ask, or if you want something specific just send me an email and I'll see what I can do!</p>
                         </section>
                     </div>
                 </div>
             </div>
             <div class="container">
                 <div class="row">
-                    <section class="col-md-12">
-                        <div class="about-text">
-                            <h3><b>The M50x by audio-technica</b></h3>
-                            <p>These headphones are by far the best I’ve used in my life for gaming. I’ve used everything from the high-priced Astro a50s, to the most popular HyperX cloud series. None of those are even in the ballpark of the M50x. It’s safe to say that if I had to pick one headset to have for the rest of my life, I wouldn’t regret picking the M50x’s.</p>
-                        </div>
-                    </section>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
                     <div class="col-md-12">
-                        <h3><b>Get in Contact with Me</b></h3>
-                        <form class="contact-form" action="contactform.php" method="post">
-                            <input type="text" name="name" placeholder="Full name">
-                            <input type="text" name="mail" placeholder="Your email">
-                            <input type="text" name="subject" placeholder="Subject">
-                            <textarea name="message" placeholder="message"> </textarea>
-                            <button type="submit" name="submit">Contact Me</button> </form>
+                        <div class="contact-title">
+                            <h3><b>Get in Contact with Me</b></h3>
+                        </div>
+                        <div class="contact-form">
+                            <form id="contact-form" action="contactform.php" method="post">
+                                <input class="form-control" type="text" name="name" placeholder="Full name"><br>
+                                <input class="form-control" type="text" name="mail" placeholder="Your email"><br>
+                                <input class="form-control" type="text" name="subject" placeholder="Subject"><br>
+                                <textarea class="form-control" name="message" placeholder="Message"></textarea><br>
+                                <button class="btn btn-primary" type="submit" name="submit">Contact Me</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
